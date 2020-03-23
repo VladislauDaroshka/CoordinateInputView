@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etLatitude"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:autofillHints="@string/latitude"
+        android:ems="10"
+        android:hint="@string/latitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etLongitude"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:autofillHints="@string/longitude"
+        android:ems="10"
+        android:hint="@string/longitude"
+        android:inputType="numberDecimal" />
+
+</merge>

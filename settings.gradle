@@ -1,0 +1,3 @@
+rootProject.name='SampleCoordinateInputView'
+include ':app'
+include ':coordinateinputview'
